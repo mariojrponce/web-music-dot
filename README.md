@@ -1,5 +1,8 @@
-# web-music-dot
-Aula de programação para Web
+# Programação Básica Para Web
+## Projeto em sala: MusicDot
+Arquivos que serão utilizados em aulas de introdução a programação WEB.
+
+# Comandos GIT
 
 $ git init
 
