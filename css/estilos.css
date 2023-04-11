@@ -1,9 +1,12 @@
 body{
     font-family: "helvetica", "Lucia Grande", sans-serif;
+    width: 940px;
+    margin-left: 500px;
 }
 h1{
     color: #3D3D3D;
     background-color: #E1EDF2;
+    padding-bottom: 10px;
 }
 h2{
     border-bottom: 1px solid black;
@@ -11,7 +14,9 @@ h2{
 figure{
     text-align: center;
     background-color: whitesmoke;
+    padding-block: 15px;
 }
 figcaption{
     color: lightgrey;
+    padding-block: 10px;
 }
