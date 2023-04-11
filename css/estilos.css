@@ -1,0 +1,17 @@
+body{
+    font-family: "helvetica", "Lucia Grande", sans-serif;
+}
+h1{
+    color: #3D3D3D;
+    background-color: #E1EDF2;
+}
+h2{
+    border-bottom: 1px solid black;
+}
+figure{
+    text-align: center;
+    background-color: whitesmoke;
+}
+figcaption{
+    color: lightgrey;
+}
