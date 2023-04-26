@@ -17,6 +17,7 @@ figure{
 }
 figcaption{
     color: lightgrey;
+    text-align: center;
 }
 
 #fig_matriz{
@@ -31,10 +32,17 @@ figcaption{
     width: 550px;
 }
 
-#figure_matriz{
-    padding-block: 10px 10px;
+#img_familia{
+    width: 275px;
 }
 
-#img_familia{
+#figure_matriz{
+    padding-block: 10px;
+    width: 550px;
+}
+
+#figure_familia{
+    padding-block: 10px;
+    width: 275px;
     float: right;
 }
