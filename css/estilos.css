@@ -1,7 +1,7 @@
 body{
     font-family: "helvetica", "Lucia Grande", sans-serif;
     width: 940px;
-    margin-left: 500px;
+    margin-left: 20%;
 }
 h1{
     color: #3D3D3D;
@@ -14,9 +14,27 @@ h2{
 figure{
     text-align: center;
     background-color: whitesmoke;
-    padding-block: 15px;
 }
 figcaption{
     color: lightgrey;
-    padding-block: 10px;
+}
+
+#fig_matriz{
+    padding: 10 auto;
+}
+
+#fig_familia{
+    padding: 10 auto;
+}
+
+#img_matriz{
+    width: 550px;
+}
+
+#figure_matriz{
+    padding-block: 10px 10px;
+}
+
+#img_familia{
+    float: right;
 }
