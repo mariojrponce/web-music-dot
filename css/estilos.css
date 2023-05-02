@@ -1,8 +1,8 @@
 body{
     font-family: "helvetica", "Lucia Grande", sans-serif;
     width: 940px;
-    margin-left: 5%;
-    margin-right: 20%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .tarja{
     color: #3D3D3D;
@@ -24,7 +24,7 @@ figcaption{
 }
 
 #fig_matriz{
-    padding: 10 auto;
+    padding: 10px auto;
 }
 
 #fig_familia{
@@ -40,12 +40,21 @@ figcaption{
 }
 
 #figure_matriz{
-    padding-block: 10px;
     width: 550px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #figure_familia{
     padding-block: 10px;
     width: 275px;
     float: right;
+}
+
+#horario{
+    font-size: small;
+}
+
+#italico{
+    font-style: italic;
 }
