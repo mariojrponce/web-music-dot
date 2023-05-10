@@ -111,3 +111,8 @@ form {
     height: 5em;
   }
   
+.botao{
+    margin-block: 10px;
+    background-color: white;
+    
+}
