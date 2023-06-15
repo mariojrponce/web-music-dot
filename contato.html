@@ -5,20 +5,58 @@
         <link rel="icon" href="img/favicon.ico">
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/estilos.css">
+        <script type = "text/javascript">
+            <!--
+               function validate() {
+                  if( document.formcontato.Nome.value == "" || document.formcontato.Nome.value.length <= 10) {
+                     alert( "Insira o nome completo" );
+                     document.formcontato.Name.focus() ;
+                     return false;
+                  }
+                  if( document.formcontato.Fone.value == "" || document.formcontato.Fone.value.length == 10) {
+                     alert( "Insira um telefone válido" );
+                     document.formcontato.Telefone.focus() ;
+                     return false;
+                  }
+                  if( document.formcontato.Email.value == "" {
+                     alert( "Insira o email válido" );
+                     document.formcontato.Email.focus() ;
+                     return false;
+                  }
+                  if( document.formcontato.Opniao.value == "" ) {
+                     alert( "Insira sua opnião" );
+                     document.formcontato.Opniao.focus() ;
+                     return false;
+                  }
+                  if( document.formcontato.Opniao.value.length <= 10 ) {
+                     alert( "Insira no minimo 10 caracteres" );
+                     document.formcontato.Opniao.focus() ;
+                     return false;
+                  }
+                  if( document.formcontato.Opniao.value.length >= 50 ) {
+                     alert( "Insira no maximo 50 caracteres" );
+                     document.formcontato.Opniao.focus() ;
+                     return false;
+                  }
+                  return( true );
+               }
+            //-->
+         </script>
     </head>
     <body>
         <img src="img/logo.svg" alt="Logotipo da empresa">
         <h1 class="tarja">Entre em contato</h1>
-        <form name="form-contato" action="index.html">
+        <form action = "" name = "formcontato" onsubmit = "return(validate());">
             <ul>
-                <li><input type="text" name="Nome" id="nome" placeholder="Nome" required>Nome</li>
-                <li><input type="tel" name="Nome" id="fone" placeholder="(xx) xxxxx-xxxx" required>Fone</li>
-                <li><input type="email" name="Nome" id="email" placeholder="fulano@email.com" required>Email</li>
-                <li><textarea name="opniao" id="" cols="30" rows="10" placeholder="Deixe sua opnião" required></textarea></li>
+                <li><input type="text" name="Nome" id="nome" placeholder="Nome">Nome</li>
+                <li><input type="tel" name="Fone" id="fone" placeholder="(xx) xxxxx-xxxx">Fone</li>
+                <li><input type="email" name="Email" id="email" placeholder="fulano@email.com">Email</li>
+                <li><textarea name="Opniao" id="" cols="30" rows="10" placeholder="Deixe sua opnião"></textarea></li>
             </ul>
-            <button class="botao">Enviar</button>
+            <button class="botao" value = "Submit" type = "submit">Enviar</button>
             <button class="botao">Cancelar</button>
         </form>
          
     </body> 
+
 </html>
